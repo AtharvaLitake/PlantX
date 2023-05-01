@@ -1,0 +1,50 @@
+[
+  {
+    "image": "Plants/adenium bonsai.jpg",
+    "title": "Adenium",
+    "price": "₹ 900",
+    "link":"adenium.html"
+  },
+  {
+    "image": "Plants/Money_plant.jpg",
+    "title": "Money Plant",
+    "price": "₹ 200",
+    "link":"hibiscus.html"
+  },
+  {
+    "image": "Plants/hibiscus.jpg",
+    "title": "Hibiscus",
+    "price": "₹ 200",
+    "link":"hibiscus.html"
+  },
+  {
+    "image": "Plants/fiscus_iceland.jpg",
+    "title": "Fiscus Iceland",
+    "price": "₹ 1600",
+    "link":"hibiscus.html"
+  },
+  {
+    "image": "Plants/nephrolepis.jpg",
+    "title": "Nephrolepis",
+    "price": "₹ 300",
+    "link":"hibiscus.html"
+  },
+  {
+    "image": "Plants/portuluca.jpg",
+    "title": "Portuluca",
+    "price": "₹ 500",
+    "link":"hibiscus.html"
+  },
+  {
+    "image": "Plants/Monstera Plant.png",
+    "title": "Monstera Plant",
+    "price": "₹ 350",
+    "link":"hibiscus.html"
+  },
+  {
+    "image": "Plants/red_rose.jpg",
+    "title": "Red Rose",
+    "price": "₹ 200",
+    "link":"hibiscus.html"
+  }
+]

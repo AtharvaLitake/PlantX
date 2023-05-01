@@ -1,0 +1,50 @@
+[
+    {
+        "image":"Plants/button_rose.jpg",
+        "title":"Button Rose",
+        "price":"₹ 210",
+        "link":"hibiscus.html"
+    },
+    {
+        "image":"Plants/yellow_rose.jpg",
+        "title":"Yellow Rose",
+        "price":"₹ 220 ",
+        "link":"hibiscus.html"
+    },
+    {
+        "image":"Plants/red_rose.jpg",
+        "title":"Red Rose",
+        "price":"₹ 220 ",
+        "link":"hibiscus.html"
+    },
+    {
+        "image":"Plants/mogra.jpg",
+        "title":"Mogra",
+        "price":"₹ 160 ",
+        "link":"hibiscus.html"
+    },
+    {
+        "image":"Plants/marigold.jpg",
+        "title":"Marigold",
+        "price":"₹ 150",
+        "link":"hibiscus.html"
+    },
+    {
+        "image":"Plants/chrysanthemum.jpg",
+        "title":"Chrysanthemum",
+        "price":"₹ 210 ",
+        "link":"hibiscus.html"
+    },
+    {
+        "image":"Plants/peace_lily.jpg",
+        "title":"Peace Lily",
+        "price":"₹ 220 ",
+        "link":"hibiscus.html"
+    },
+    {
+        "image":"Plants/Hibiscus.jpg",
+        "title":"Red Rose",
+        "price":"₹ 180 ",
+        "link":"hibiscus.html"
+    }
+]

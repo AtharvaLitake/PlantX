@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800;900&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+/*NAVBAR CSS STARTS*/
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0e7202;
+  transition: all 0.5s ease;
+}
+.nav_logo {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  text-decoration: none;
+  color: white;
+}
+.nav_logo img {
+  height: 60px;
+  width: 60px;
+  padding: 5px;
+}
+.navbar {
+  display: flex;
+  list-style-type: none;
+  list-style: none;
+  padding-top: 20px;
+  margin-top: 0px;
+}
+.navbar a {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 5px 0;
+  margin: 0px 30px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  
+}
+.navbar a:hover {
+  color: rgb(129, 255, 125);
+}
+.main {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.main a {
+  margin-right: 15px;
+  margin-left: 5px;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s ease;
+}
+.user {
+  display: flex;
+  align-items: center;
+}
+.user i {
+  margin-right: 7px;
+}
+.main a:hover {
+  color: rgb(129, 255, 125);
+}
+#menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 1001;
+  display: none;
+}
+@media (max-width: 1280px) {
+  .navbar a {
+    padding: 5px 0px;
+    margin: 0px 20px;
+  }
+}
+@media (max-width: 1090px) {
+  #menu-icon {
+    display: block;
+    padding-right: 6px;
+  }
+  .nav_logo
+  {
+    font-size: 25px;
+  }
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 270px;
+    height: auto;
+    background-color: #0e7202;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+   
+  }
+  .navbar a {
+    display: block;
+    margin: 4px 0;
+    padding: 0px 25px;
+    transition: all 0.5s ease;
+   
+  }
+  .navbar a:hover {
+    color: rgb(129, 255, 125);
+  }
+  .navbar.open {
+    right: 2%;
+  }
+  .main a
+  {
+    font-size: 20px;
+  }
+}
+/*NAVBAR CSS ENDS */
+.our-products h2 {
+  text-align: center;
+  color: #0e7202;
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: 5px;
+  margin: 15px;
+  margin-top: 85px;
+}
+.products {
+  display: grid;
+  height: auto;
+  width: 100%;
+  grid-template-columns: 20% 20% 20% 20%;
+  column-gap: 50px;
+  row-gap: 20px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.flowers {
+  height: auto;
+  width: 100%;
+  border: solid;
+  border-width: 2px;
+  border-color: #0d720289;
+  border-radius: 20px;
+  padding: 10px;
+  padding-top: 12px;
+  box-shadow: 0 0 5px #0d72026b;
+  background-color: rgba(160, 255, 150, 0.573);
+}
+.flower-images {
+  display: grid;
+  grid-template-columns: 90%;
+  height: auto;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.flower-images img {
+  height: 250px;
+  width: 100%;
+  border-radius: 20px;
+  border: solid;
+  border-width: 1px;
+  border-color: #0d720289;
+}
+
+.flowers h2 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 28px;
+  color: #000000;
+  text-align: center;
+}
+.flowers hr {
+  color: #0e7202;
+  border-width: 0.5px;
+  border-color: #0e7202;
+}
+.price {
+  text-align: center;
+}
+.price p {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 22px;
+  margin: 2px;
+  text-align: center;
+}
+.flowers button {
+  height: 50px;
+  width: 100%;
+  margin-top: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  border-radius: 10px;
+  background-color: #0e7202;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+.price i {
+  margin-left: 4px;
+}
+.flowers:hover {
+  background-color: rgba(160, 255, 150, 0.918);
+  transition: 0.5s;
+}
+
+.flower-images img:hover {
+  transform: scale(1.1);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: 0.7s;
+}
+.price button:hover {
+  background-color: #063800a1;
+}
+@media (max-width: 1150px) {
+  .flower-images img {
+    height: 200px;
+  }
+  .flowers h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 990px) {
+  .products {
+    grid-template-columns: 25% 25% 25%;
+  }
+  .flowers button {
+    font-size: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .our-products h2 {
+    font-size: 40px;
+  }
+  .products {
+    grid-template-columns: 35% 35%;
+  }
+  .flowers h2 {
+    font-size: 20px;
+  }
+  .flower-images img {
+    height: 190px;
+  }
+}
+@media (max-width: 450px) {
+  .our-products h2 {
+    font-size: 32px;
+  }
+  .products {
+    grid-template-columns: 70%;
+  }
+  .flower-images img {
+    height: 200px;
+  }
+}

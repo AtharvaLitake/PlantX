@@ -1,0 +1,212 @@
+/*FONT FAMILY MONTSERRAT*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800;900&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+/* NAVBAR BAR CSS STARTS HERE*/
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0e7202;
+  transition: all 0.5s ease;
+}
+.nav_logo {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  text-decoration: none;
+  color: white;
+}
+.nav_logo img {
+  height: 60px;
+  width: 60px;
+  padding: 5px;
+}
+.navbar {
+  display: flex;
+  list-style-type: none;
+  list-style: none;
+  padding-top: 20px;
+}
+.navbar a {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 5px 0;
+  margin: 0px 30px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.navbar a:hover {
+  color: rgb(129, 255, 125);
+}
+.main {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.main a {
+  margin-right: 15px;
+  margin-left: 5px;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s ease;
+}
+.user {
+  display: flex;
+  align-items: center;
+}
+.user i {
+  margin-right: 7px;
+}
+.main a:hover {
+  color: rgb(129, 255, 125);
+}
+#menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 1001;
+  display: none;
+}
+@media (max-width: 1280px) {
+  .navbar a {
+    padding: 5px 0px;
+    margin: 0px 20px;
+  }
+}
+@media (max-width: 1090px) {
+  #menu-icon {
+    display: block;
+    padding-right: 6px;
+  }
+  .navbar {
+    position: absolute;
+    margin-top: 5px;
+    top: 100%;
+    right: -100%;
+    width: 270px;
+    height: auto;
+    background-color: #0e7202;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+  }
+  .navbar a {
+    display: block;
+    margin: 12px 0;
+    padding: 0px 25px;
+    transition: all 0.5s ease;
+  }
+  .navbar a:hover {
+    color: rgb(129, 255, 125);
+  }
+  .navbar.open {
+    right: 2%;
+  }
+}
+/*NAVBAR CSS ENDS HERE*/
+/*CART ITEMS CSS STARTS*/
+.cart-page
+{
+    margin: 120px 80px;
+}
+.cart-page table
+{
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+.cart-info
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.cart-info a
+{
+    text-decoration: none;
+}
+.cart-info p
+{
+    font-size: 20px;
+}
+th
+{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background-color:#0e7202;
+    font-weight: normal;
+    font-size: 20px;
+}
+td
+{
+    padding: 10px 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+td p
+{
+    margin-bottom: 2px;
+}
+td input
+{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a
+{
+    color:#0e7202 ;
+    font-size: 18px;
+}
+td img
+{
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+}
+.total-price
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table
+{
+    border-top: solid #0e7202;
+    width: 100%;
+    max-width: 500px;
+}
+td:last-child
+{
+    text-align: right;
+}
+@media (max-width:650px)
+{
+    .cart-info h3
+    {
+        display: none;
+    }
+    .cart-page
+    {
+        margin: 90px 20px;
+    }
+}

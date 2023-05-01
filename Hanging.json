@@ -1,0 +1,32 @@
+[
+  {
+    "image": "Plants/Spider_hang.jpg",
+    "title": "Spider Hang",
+    "price": "₹ 260"
+  },
+  {
+    "image": "Plants/elephant bush.jpg",
+    "title": "Elephant Bush",
+    "price": "₹ 399"
+  },
+  {
+    "image": "Plants/nephrolepis.jpg",
+    "title": "Nephrolepis",
+    "price": "₹ 300"
+  },
+  {
+    "image": "Plants/portuluca.jpg",
+    "title": "Portuluca",
+    "price": "₹ 500"
+  },
+  {
+    "image": "Plants/money plant_hang.jpg",
+    "title": "Money Plant Hang",
+    "price": "₹ 350"
+  },
+  {
+    "image": "Plants/money-plant-marble.jpg",
+    "title": "Money Plant Marble",
+    "price": "₹ 400"
+  }
+]

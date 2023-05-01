@@ -1,0 +1,37 @@
+[
+  {
+    "image": "Plants/spider plant.jpg",
+    "title": "Spider Plant",
+    "price": "₹ 260"
+  },
+  {
+    "image": "Plants/Aralia_green.jpeg",
+    "title": "Aralia Green",
+    "price": "₹ 250"
+  },
+  {
+    "image": "Plants/haworthia.jpg",
+    "title": "Haworthia",
+    "price": "₹ 290"
+  },
+  {
+    "image": "Plants/Money_plant.jpg",
+    "title": "Money Plant",
+    "price": "₹ 200"
+  },
+  {
+    "image": "Plants/Monstera Plant.png",
+    "title": "Monstera Plant",
+    "price": "₹ 350"
+  },
+  {
+    "image": "Plants/Snake_plant.jpg",
+    "title": "Snake Plant",
+    "price": "₹ 400"
+  },
+  {
+    "image": "Plants/syngonium.jpg",
+    "title": " Syngonium",
+    "price": "₹ 260"
+  }
+]

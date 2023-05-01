@@ -1,0 +1,28 @@
+[
+    {
+      "image": "Plants/adenium bonsai.jpg",
+      "title": "Adenium",
+      "price": "₹ 900"
+    },
+    {
+      "image": "Plants/fiscus_bonsai.jpg",
+      "title": "Fiscus Bonsai",
+      "price": "₹ 1300"
+    },
+    {
+      "image": "Plants/fiscus_iceland.jpg",
+      "title": "Fiscus Iceland",
+      "price": "₹ 1600"
+    },
+    {
+      "image": "Plants/jade_bonsai.jpg",
+      "title": "Jade Bonsai",
+      "price": "₹ 3200"
+    },
+    {
+      "image": "Plants/MAPLE_BONSAI.jpeg",
+      "title": "Maple Bonsai",
+      "price": "₹ 6000"
+    }
+  ]
+  

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlantX</title>
+    <!--bootstrap cdn stylesheet-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!--FONT AWESOME ICONS CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!--AOS LIBRARY CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--external Css-->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!--NAVBAR CODE STARTS -->
+    <header>
+      <a href="" class="nav_logo"
+        ><img src="Media/logo.png" alt="" /><span>PlantX</span></a
+      >
+      <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#category">Categories</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="main">
+        <a href="" class="user"
+          ><i class="fa-regular fa-user"></i>&nbsp;&nbsp;LogIn</a
+        >
+        <a href="mycart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <div class="bx-x" id="menu-icon"><i class="fa-solid fa-bars"></i></div>
+      </div>
+    </header>
+    <!--NAVBAR CODE ENDS-->
+    <!-- carousel Start-->
+    <div class="slider_div">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-aos="zoom"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Media/slider1.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="Media/slider2.png" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- Carousel End -->
+    <!-- Buttons Start-->
+    <div class="plant_types" id="category">
+      <h1>CATEGORIES</h1>
+    </div>
+    <div class="button_div">
+      <div class="Types" data-aos="flip-right" data-aos-duration="1000">
+        <button>
+          <a href="Non-Flowering.html"
+            ><img src="Media/ornamental.png" alt="Ornamental"
+          /></a>
+        </button>
+      </div>
+      <div class="Types" data-aos="flip-right" data-aos-duration="1000">
+        <button>
+          <a href="flowering.html"
+            ><img src="Media/flowering.png" alt="Flowering"
+          /></a>
+        </button>
+      </div>
+      <div class="Types" data-aos="flip-right" data-aos-duration="1000">
+        <button>
+          <a href="Bonsai.html"><img src="Media/bonsai.png" alt="Bonsai" /></a>
+        </button>
+      </div>
+      <div class="Types" data-aos="flip-right" data-aos-duration="1000">
+        <button>
+          <a href="Hanging.html"
+            ><img src="Media/hanging.png" alt="Hanging"
+          /></a>
+        </button>
+      </div>
+    </div>
+    <!-- Buttons End -->
+    <!-- Top products start -->
+    <div class="top-prd">
+      <div class="our-products">
+        <h2>TOP PRODUCTS</h2>
+      </div>
+      <div class="products" data-aos="fade-up"></div>
+    </div>
+    <!-- Top products End -->
+    <!--ABOUT SECTION-->
+    <div class="abt">
+      <div class="web-logo" data-aos="fade" data-aos-duration="1500">
+        <img src="Media/logo.png" alt="logo" />
+      </div>
+      <div class="abt-content">
+        <h1>PlantX</h1>
+        <h3>THE PLANT SHOP</h3>
+        <p>
+          Digitalization is taking all over the world. Urbanization is at its boom. People have started living in apartments rather than Big Homes.Due to such accomodation changes, People prefer to keep Potted Plants in the Balcony to be cheerful instead of having gardens .Because of such changes,Nursery sector is growing but still working with its orthodox methods. PlantX digitalizes the ever growing nursery sector fulfilling horticulturists needs and making home gardening an easy task. Explore amazing deals with us now!
+        </p>
+      </div>
+    </div>
+    <!--review section starts-->
+    <div class="review">
+      <div class="review-heading">
+        <h1>REVIEWS</h1>
+      </div>
+      <div class="review-section">
+        <div class="review1" data-aos="flip-right" data-aos-duration="1500">
+          <div class="reviewer">
+            <img src="./Media/review-person-1.jpeg" alt="person" />
+          </div>
+          <h3>-Steve Jobs</h3>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>
+            "I had a fantastic experience shopping on this website. The
+            user-friendly interface made it easy to find what I was looking for,
+            and the checkout process was smooth and efficient. The product
+            arrived quickly, and it exceeded my expectations in terms of
+            quality. I highly recommend this e-commerce site!I
+            appreciate the attention to detail and experience."
+          </p>
+        </div>
+
+        <div class="review2" data-aos="flip-right" data-aos-duration="1500">
+          <div class="reviewer">
+            <img src="./Media/review-person-1.jpeg" alt="person" />
+          </div>
+          <h3>-Steve Jobs</h3>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+          <p>
+            "I recently purchased a product from this e-commerce site, and I
+            couldn't be happier with my purchase. The product description was
+            accurate, and the images provided a clear representation of the
+            item. The package arrived well-packaged and in perfect condition. I
+            appreciate the attention to detail.I love PlantX, I will shop again and again."
+          </p>
+        </div>
+        <div class="review3" data-aos="flip-right" data-aos-duration="1500">
+          <div class="reviewer">
+            <img src="./Media/review-person-1.jpeg" alt="person" />
+          </div>
+          <h3>-Steve Jobs</h3>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+          <p>
+            "This e-commerce website has an excellent selection of products. I
+            was able to find exactly what I was looking for, and the prices were
+            competitive. The website's search function and filters made it easy
+            to narrow down my options. The ordering process was straightforward,
+            and the delivery was prompt. I would definitely shop here again. I love PlantX"
+          </p>
+        </div>
+      </div>
+      <!--review section ends-->
+    </div>
+    <!--FOOTER-->
+    <footer
+      class="text-center text-lg-start bg-light text-muted"
+      id="contact"
+      style="background-color: #0e7202"
+    >
+      <!-- Section: Links  -->
+      <section
+        class=""
+        style="
+          background-color: #0e7202;
+          color: white;
+          margin: 0px;
+          padding-top: 5px;
+        "
+      >
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>PlantX
+              </h6>
+              <p>
+                Explore Oxford of East with our marvelous website. This website
+                will help you travel anywhere in pune with great enthusiasm.
+                Join us and exlore this exhilarating place and make memories
+                with it.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Sections</h6>
+              <p>
+                <a href="#!" class="text-reset">Home</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Category</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Team</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Contact</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i>PICT Pune , 411037</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                satputesakshi20@gmail.com
+                <i class="fas fa-envelope me-3"></i>
+                atharavalitake24@gmail.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> +91 8237095572</p>
+              <p><i class="fas fa-print me-3"></i> +91 7774932486</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-4"
+        style="background-color: #0e7202; color: white"
+      >
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">PlantX</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!--NAVBAR JS -->
+    <script src="script.js"></script>
+    <!--TOP PRODUCTS JS-->
+    <script src="top-products.js"></script>
+    <!--AOS LIBRARY CDN-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--AOS INITIALIZE-->
+    <script>
+      AOS.init({
+        offset: 100,
+      });
+    </script>
+    <!--bootstrap cdn javascript-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
