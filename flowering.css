@@ -355,5 +355,6 @@ header {
   .price_filter button
   {
     width: 130px;
+    font-size: 18px;
   }
 }

@@ -1,7 +1,7 @@
 /*FONT FAMILY MONTSERRAT*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800;900&display=swap");
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 body {
   margin: 0px;
@@ -11,7 +11,7 @@ body {
 }
 /* NAVBAR BAR CSS STARTS HERE*/
 header {
-position: fixed;
+  position: fixed;
   width: 100%;
   top: 0;
   right: 0;
@@ -38,7 +38,7 @@ position: fixed;
   display: flex;
   list-style-type: none;
   list-style: none;
-  padding-top:20px ;
+  padding-top: 20px;
 }
 .navbar a {
   color: white;
@@ -57,6 +57,7 @@ position: fixed;
   align-items: center;
   text-decoration: none;
   color: white;
+  margin-top: 0;
 }
 .main a {
   margin-right: 15px;
@@ -66,12 +67,17 @@ position: fixed;
   text-decoration: none;
   color: white;
   transition: all 0.5s ease;
+
 }
-.user {
+.user_plantx {
   display: flex;
   align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding-bottom:20px;
+  padding: 0px;
 }
-.user i {
+.user_plantx i {
   margin-right: 7px;
 }
 .main a:hover {
@@ -122,8 +128,7 @@ position: fixed;
   }
 }
 /*NAVBAR CSS ENDS HERE*/
-.product-details
-{
+.product-details {
   margin-top: 90px;
   display: grid;
   grid-template-columns: 45% 45%;
@@ -133,41 +138,35 @@ position: fixed;
   justify-content: center;
   align-items: center;
 }
-.product-image img
-{
+.product-image img {
   height: 500px;
   width: 500px;
 }
-.product-content
-{
+.product-content {
   padding: 10px;
 }
-.product-content h1
-{
+.product-content h1 {
   font-weight: 700;
   width: 100%;
   margin: 0%;
 }
-.product-content p{
+.product-content p {
   text-align: justify;
   font-size: 20px;
   margin: 0%;
 }
-.rating i
-{
+.rating i {
   font-size: 25px;
   color: rgb(250, 250, 0);
   margin: 0%;
 }
-.product-content h4
-{
+.product-content h4 {
   font-weight: 700;
   font-size: 30px;
   padding-bottom: 10px;
   display: inline-block;
 }
-.product-content input
-{
+.product-content input {
   height: 40px;
   width: 180px;
   margin-left: 25%;
@@ -175,90 +174,239 @@ position: fixed;
   font-family: 28px;
   font-weight: 500;
 }
-.product-content input::placeholder
-{
+.product-content input::placeholder {
   font-family: 28px;
   font-weight: 500;
 }
 
-.product-content button
-{
+.product-content button {
   background-color: #0e7202;
   width: 100%;
   text-align: center;
-  margin-top:20px ;
+  margin-top: 20px;
   padding: 10px;
   height: 60px;
   color: white;
   font-size: 22px;
   border-radius: 10px;
 }
-.product-care
-{
+.product-care {
   margin: 10px;
   font-size: 20px;
   text-align: justify;
-  padding: 10px;
+  padding: 30px;
 }
-.product-content button:hover
-{
+.product-content button:hover {
   cursor: pointer;
   background-color: #93ff87;
   color: black;
   transition: all 0.7s ease;
 }
+/* comment section */
+.comment-box,
+.post-comment .list {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+.comment_final
+{
+  background-color: #93ff87;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.comment-section {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.heading h1 {
+  padding-top: 20px;
+  text-align: center;
+  color: #0e7202;
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: 5px;
+}
+.post-comment .list {
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.user {
+  display: grid;
+  grid-template-columns: 10% 80%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  height: auto;
+}
+.user-icon {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  color: #072d04;
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  outline: #000000;
+  padding-left: 8px;
+  margin-left: 15%;
+  margin-right: 0;
+}
+
+.head {
+  padding-left: 30px;
+}
+.head h3 {
+  margin: 5px;
+  font-weight: 800;
+  color: #0e7202;
+}
+.rate {
+  text-align: left;
+  padding-left: 30px;
+  margin: 20px;
+}
+.rate i {
+  font-size: 24px;
+  color: #0e7202;
+}
+
+.post-comment .comment {
+  padding: 0 0 10px 50px;
+  text-align: justify;
+  padding-right: 30px;
+}
+
+.comment-box {
+  padding: 10px;
+  overflow: hidden;
+  
+}
+
+.comment-box textarea {
+  background: #807e7e71;
+  width: -webkit-fill-available;
+  height: 150px;
+  padding: 10px;
+  resize: inherit;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 0 1px #0003;
+  font-size: 24px;
+  color: black;
+}
+.comment-box textarea::placeholder
+{
+  font-size: 24px;
+  font-weight: 600;
+}
+.comment-box textarea:focus-visible {
+  box-shadow: inset 0 0 0 1px #0e7202;
+  outline: none;
+}
+
+.comment-box .submit-comment {
+  float: right;
+  padding: 6px 10px;
+  border: none;
+  background: #0e7202;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 160px;
+}
+
+.comment-box .submit-comment:hover {
+  background: #153c11;
+}
 @media (max-width: 1200px) {
-.product-content input
-{
-  margin-left: 10%;
-}
-.product-details img
-{
-  height: 450px;
-  width: 450px;
-}
+  .product-content input {
+    margin-left: 10%;
+  }
+  .product-details img {
+    height: 450px;
+    width: 450px;
+  }
+  .list {
+    padding-right: 20px;
+  }
 }
 @media (max-width: 990px) {
-  .product-details
-  {
+  .product-details {
     margin-top: 70px;
     grid-template-columns: 100%;
     justify-content: center;
     align-items: center;
     justify-items: center;
   }
-  .product-content h1
-  {
+  .product-content h1 {
     text-align: center;
   }
-  .rating
-  {
+  .rating {
     text-align: center;
   }
-  .product-content input
-  {
+  .product-content input {
     margin-left: 10%;
+  }
+
+  .comment-section {
+    width: 80%;
+  }
+
+  .user-icon {
+    margin-left: 40%;
+  }
+
+  .head {
+    padding-left: 50px;
   }
 }
 @media (max-width: 700px) {
-  .product-content input
-{
-  margin-left: 20px;
-  width: 100px;
-}
-.product-details img
-{
-  height: 350px;
-  width: 350px;
-}
-.product-content p
-{
-  font-size: 20px;
-}
+  .product-content input {
+    margin-left: 20px;
+    width: 100px;
+  }
+  .product-details img {
+    height: 350px;
+    width: 350px;
+  }
+  .product-content p {
+    font-size: 20px;
+  }
+  .comment-section {
+    width: 80%;
+  }
+
+  .user-icon {
+    margin-left: 50%;
+  }
+
+  .head {
+    padding-left: 70px;
+  }
 }
 @media (max-width: 450px) {
-  .product-content input
-{
-  display: none;
-}
+  .product-content input {
+    display: none;
+  }
+  .comment-section {
+    width: 80%;
+  }
+  .user-icon {
+    margin-left: 80%;
+  }
+
+  .head {
+    padding-left: 80px;
+  }
+  .heading h1
+  {
+    font-size: 36px;
+  }
 }
