@@ -470,7 +470,7 @@ header {
   }
 
   .review-section {
-    grid-template-columns: 50%;
+    grid-template-columns: 90%;
     row-gap: 30px;
   }
 }
@@ -506,6 +506,12 @@ header {
     height: 170px;
     width: 170px;
   }
+  .review-section h3 {
+    font-size: 25px;
+  }
+  .review-section p {
+    font-size: 12px;
+  }
 }
 @media (max-width: 450px) {
   .plant_types h1 {
@@ -530,9 +536,11 @@ header {
   .flower-images img {
     height: 200px;
   }
-
   .reviewer img {
     height: 120px;
     width: 120px;
+  }
+  .review-section p {
+    font-size: 12px;
   }
 }
