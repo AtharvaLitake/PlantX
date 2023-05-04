@@ -43,8 +43,32 @@
     },
     {
         "image":"Plants/Hibiscus.jpg",
-        "title":"Red Rose",
+        "title":"Hibiscus",
         "price":"₹ 180 ",
+        "link":"hibiscus.html"
+    },
+    {
+        "image":"Plants/gokarna.jpg",
+        "title":"Blue Pea",
+        "price":"₹ 160 ",
+        "link":"hibiscus.html"
+    },
+    {
+        "image":"Plants/jasmine.png",
+        "title":"Jasmine",
+        "price":"₹ 190 ",
+        "link":"hibiscus.html"
+    },
+    {
+        "image":"Plants/daisy.jpg",
+        "title":"Daisy",
+        "price":"₹ 230 ",
+        "link":"hibiscus.html"
+    },
+    {
+        "image":"Plants/daffodil.jpg",
+        "title":"Daffodil",
+        "price":"₹ 260 ",
         "link":"hibiscus.html"
     }
 ]

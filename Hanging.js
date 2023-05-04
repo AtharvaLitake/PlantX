@@ -28,3 +28,23 @@ http.onload = function () {
     document.querySelector(".products").innerHTML = output;
   }
 };
+//search bar code begins here
+const SearchPlant=()=>
+{
+	let filter= document.getElementById("myInput").value.toUpperCase();
+	let ul=document.getElementById("myUL");
+	let card=ul.getElementsByClassName("flowers")
+	for(var i=0;i<card.length;i++)
+	{
+		let a=card[i].getElementsByTagName('h2')[0];
+		let textValue=a.textContent || a.innerHTML
+		if(textValue.toUpperCase().indexOf(filter)>-1)
+		{
+			card[i].style.display='';
+		}
+		else
+		{
+			card[i].style.display='none';	
+		}
+	}
+}
