@@ -43,11 +43,17 @@
       </div>
     </header>
     <!--NAVBAR CODE ENDS-->
-    <div class="our-products">
+    <div class="search-bar">
+        <div id="search-container">
+            <input type="search" id="myInput" placeholder="Search Your Plant Here" onkeyup="SearchPlant()">
+        </div>
+        
+    </div>
+    <div class="our-products" >
       <h2>OUR PRODUCTS</h2>
     </div>
 
-    <div class="products"></div>
+    <div class="products" id="myUL"></div>
     <!--FOOTER-->
     <footer
       class="text-center text-lg-start bg-light text-muted"
@@ -133,6 +139,7 @@
       <!-- Copyright -->
     </footer>
     <script src="flowering.js"></script>
+    <script src="test.js"></script>
     <!--NAVBAR JS -->
     <script src="script.js"></script>
   </body>

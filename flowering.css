@@ -129,6 +129,35 @@ header {
   }
 }
 /*NAVBAR CSS ENDS */
+/*SEARCH BAR CODE STARTS HERE*/
+.search-bar
+{
+    margin-top: 95px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    height: auto;
+}
+#search-container input
+{
+    background-color: transparent;
+    width: 600px;
+    height: 45px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #0e7202;
+    padding: 10px;
+    font-size:24px ;
+    font-weight: normal;
+}
+#search-container input:focus
+{
+    outline: none;
+    border-bottom: 2px solid #0e7202;
+}
+/*search bar code ends*/
 .our-products h2 {
   text-align: center;
   color: #0e7202;
@@ -136,7 +165,7 @@ header {
   font-weight: 800;
   letter-spacing: 5px;
   margin: 15px;
-  margin-top: 85px;
+  margin-top: 30px;
 }
 .products {
   display: grid;
@@ -263,6 +292,11 @@ header {
   .flower-images img {
     height: 190px;
   }
+  #search-container input
+  {
+    width: 400px;
+    font-size: 22px;
+  }
 }
 @media (max-width: 450px) {
   .our-products h2 {
@@ -273,5 +307,10 @@ header {
   }
   .flower-images img {
     height: 200px;
+  }
+  #search-container input
+  {
+    width: 300px;
+    font-size: 20px;
   }
 }
