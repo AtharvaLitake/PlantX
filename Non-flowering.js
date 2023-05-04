@@ -48,3 +48,40 @@ const SearchPlant=()=>
 		}
 	}
 }
+//filter code starts
+const filterout1=()=>
+{
+	let ul=document.getElementById("myUL");
+	let card=ul.getElementsByClassName("flowers")
+	for(var i=0;i<card.length;i++)
+	{
+		let a=card[i].getElementsByTagName('p')[0];
+		let textValue=a.textContent || a.innerHTML
+		if(textValue<"₹ 300")
+		{
+			card[i].style.display='';
+		}
+		else
+		{
+			card[i].style.display='none';	
+		}
+	}
+}
+const filterout2=()=>
+{
+	let ul=document.getElementById("myUL");
+	let card=ul.getElementsByClassName("flowers")
+	for(var i=0;i<card.length;i++)
+	{
+		let a=card[i].getElementsByTagName('p')[0];
+		let textValue=a.textContent || a.innerHTML
+		if(textValue<"₹ 400")
+		{
+			card[i].style.display='';
+		}
+		else
+		{
+			card[i].style.display='none';	
+		}
+	}
+}

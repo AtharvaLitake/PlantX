@@ -31,8 +31,8 @@
       <ul class="navbar">
         <li><a href="index.html" class="active">Home</a></li>
         <li><a href="index.html">Categories</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="index.html">Contact</a></li>
       </ul>
       <div class="main">
         <a href="" class="user"
@@ -43,18 +43,28 @@
       </div>
     </header>
     <!--NAVBAR CODE ENDS-->
+    <div class="our-products" >
+      <h2>OUR PRODUCTS</h2>
+    </div>
     <!--SEARCH BAR STRUCT-->
     <div class="search-bar">
         <div id="search-container">
             <input type="search" id="myInput" placeholder="Search Your Plant Here" onkeyup="SearchPlant()">
-        </div>
-    <!---SEARCH BAR ENDS--> 
+        </div> 
     </div>
-    <div class="our-products" >
-      <h2>OUR PRODUCTS</h2>
+    <!---SEARCH BAR ENDS-->
+    <div class="filter_out">
+      <div class="price_filter">
+        <button onclick="filterout1()">Under 200 </button>
+      </div>
+      <div class="price_filter">
+        <button onclick="filterout2()">Under 250 </button>
+      </div>
     </div>
 
+    <!--MAIN PRODUCT SCETION-->
     <div class="products" id="myUL"></div>
+    <!--MAIN PRODUCT SECTION ENDS-->
     <!--FOOTER-->
     <footer
       class="text-center text-lg-start bg-light text-muted"
