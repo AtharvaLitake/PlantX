@@ -148,7 +148,7 @@ header {
   justify-content: center;
   align-items: center;
   justify-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .blogs {
   height: auto;
@@ -205,6 +205,30 @@ header {
 .read_more button:hover
 {
   background-color: rgb(54, 85, 7);
+}
+.button_create
+{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.button_create a
+{
+  text-align: center;
+}
+.button_create button
+{
+  background-color: #0e7202;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  padding: 10px;
+  height: 60px;
+  width: 280px;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
 }
 /*RESPONSIVE CODE BEGINS HERE */
 @media (max-width: 1200px) {
