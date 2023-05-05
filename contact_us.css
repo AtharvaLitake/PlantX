@@ -35,6 +35,7 @@ header {
     list-style-type: none;
     list-style: none;
     padding-top: 20px;
+    margin-top: 0px;
   }
   .navbar a {
     color: white;
@@ -44,6 +45,7 @@ header {
     margin: 0px 30px;
     text-decoration: none;
     transition: all 0.5s ease;
+    margin-top: 0px;
   }
   .navbar a:hover {
     color: rgb(129, 255, 125);
@@ -188,7 +190,7 @@ input{
     margin: 0;
     margin-bottom: 20px;
     margin-top: 20px;
-    padding: 0 20px;
+    padding: 0 15px;
     border: 1px solid #0e7202;
     border-radius: 10px;
     font-size: 22px;
@@ -211,7 +213,7 @@ input:focus{
     height: 150px;
     margin: 20px 0;
     padding: 0 20px; 
-    background: #c5c6c6;
+    background: #c8cacaa8;
     border-radius: 5px;
     font-size: 22px;
 }
@@ -223,8 +225,8 @@ input:focus{
   }
 
 .contact_main_form textarea::placeholder{
-    color: #9d9f9e;
-    font-size: 20px;
+    color: #868786;
+    font-size: 25px;
     margin-top: 10px;
 
 }
